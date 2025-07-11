@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
 }
-button{
+.btn-primary{
     font-size: 16px;
     padding: 12px 36px;
     font-weight: bold;
@@ -28,15 +28,31 @@ button{
 }
 
 /* nav styles */
-.nav{
+header{
+    background-image: url("/images/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 .nav-title{
     font-size: 34px;
     font-weight: black;
     color: #4E47FF;
+}
+.banner{
+    text-align: center;
+    margin-top: 158px;
+    padding-bottom: 152px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
 }
 /* body{
     max-width: 1140px;
