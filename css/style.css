@@ -220,12 +220,14 @@ nav{
 }
 
 /* Footer part */
-.footer-content{
-    padding: 104px 455px 104px 455px;
-}
 footer{
     background-color: #FFFFFF;
     border: 1px solid #0000000f;
+}
+.footer-content{
+    padding: 104px 455px 104px 455px;
+    text-align: center;
+    max-width: 531px;
 }
 .footer-title{
     font-size: 100px;
@@ -240,6 +242,7 @@ footer{
 ul{
     display: flex;
     gap: 48px;
+    justify-content: center;
 }
 li{
     list-style: none;
