@@ -26,6 +26,10 @@
     border-radius: 10px;
     border: none;
 }
+h3{
+    font-size: 42px;
+    font-weight: bold;
+}
 
 /* nav styles */
 header{
@@ -53,6 +57,21 @@ nav{
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 159px 116px 141px;
+}
+.action-content{
+    max-width: 517px;
+}
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    margin: 23px 0px;
 }
 /* body{
     max-width: 1140px;
