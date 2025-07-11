@@ -112,3 +112,42 @@ nav{
     font-weight: 400;
     color: #000000;
 }
+
+/* users-say part */
+.users-say{
+    margin: 0px 149px 137px 151px;
+}
+.users-say-content{
+    display: flex;
+    gap: 20px;
+
+}
+.users-say-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content{
+    max-width: 366px;
+    background-color: #ffffff78;
+    border-radius: 14px;
+    border: 2px solid #F2EDED;
+    padding: 24px;
+    
+}
+.loved{
+    padding: 24px 0 24px 0px;
+}
+.loved h4{
+    padding-bottom: 8px;
+}
+.user{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.user h5{
+    color: #757575;
+}
+.user h6{
+    color: #B3B3B3;
+}
