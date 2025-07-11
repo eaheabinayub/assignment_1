@@ -26,12 +26,6 @@
     border-radius: 10px;
     border: none;
 }
-/* .primary-color{
-    color: #4E47FF;
-} */
-/* .primary-color-2{
-    color: #000000;
-} */
 h3{
     font-size: 42px;
     font-weight: bold;
@@ -72,7 +66,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 116px 159px 116px 141px;
+    margin: 116px 150px 116px 150px;
 }
 .action-content{
     max-width: 517px;
@@ -89,7 +83,7 @@ nav{
     max-width: 1140px;
     border-radius: 24px;
     background-color: #4d47ff15;
-    margin: 0px 159px 137px 141px;
+    margin: 0px 150px 137px 150px;
 }
 .productive-users-title{
     font-size: 38px;
@@ -115,7 +109,7 @@ nav{
 
 /* users-say part */
 .users-say{
-    margin: 0px 149px 137px 151px;
+    margin: 0px 150px 137px 150px;
 }
 .users-say-content{
     display: flex;
@@ -150,4 +144,74 @@ nav{
 }
 .user h6{
     color: #B3B3B3;
+}
+
+/* ready part */
+.ready{
+    background-color: #f3f1f191;
+    border-radius: 14px;
+    max-width: 1140px;
+    margin: 0px 150px 92px 150px;
+    padding: 150px 71px 150px 71px;
+}
+.ready-content{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.ready-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ready-description{
+    padding: 20px 0px 20px 0px;
+}
+.ready img{
+    border-radius: 48px;
+    margin: 0px 150px 0px 150px;
+}
+
+/* Let's get in touch part */
+.touch{
+    max-width: 1140px;
+    margin: 0px 150px 14px 150px;
+}
+.touch-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+    max-width: 528px;
+}
+.input-1{
+    padding: 20px 0px 20px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    width: 497px;
+    margin: 10px 0px 19px 0px;
+}
+.input-2{
+    padding: 20px 0px 20px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    width: 497px;
+    margin: 10px 0px 19px 0px;
+}
+.input-3{
+    padding: 20px 0px 0px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    width: 497px;
+    padding-bottom: 19px;
+    margin: 10px 0px 19px 0px;
+}
+.btn-last{
+    padding: 19px 0px 19px 0px;
+    width: 530px;
 }
